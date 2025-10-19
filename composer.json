@@ -1,0 +1,21 @@
+{
+    "name": "hexlet/code",
+    "description": "A collection brain game!",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roni",
+            "email": "home1352678@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "bin": [
+  "bin/brain-games"
+    ]
+
+}
