@@ -6,13 +6,16 @@
             "Hexlet\\Code\\": "src/"
         }
     },
+
     "authors": [
         {
             "name": "Roni",
             "email": "home1352678@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.6"
+    },
 
     "bin": [
   "bin/brain-games"
