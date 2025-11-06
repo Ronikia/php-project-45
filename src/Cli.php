@@ -1,6 +1,6 @@
 <?php
 
-namespace Saying; 
+namespace Saying;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -9,7 +9,9 @@ use function cli\prompt;
 
 function sayHello()
 {
+    global $global_name;
+
     line('Welcome to the Brain Game!');
-    $name = prompt('May I have your name?');
-    line("Hello, %s!", $name);
+    $GLOBALS['global_name'] = prompt('May I have your name?');
+    line("Hello, %s!", $GLOBALS['global_name']);
 }
